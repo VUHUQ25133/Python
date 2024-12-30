@@ -8,8 +8,8 @@
     # Input:
     #     Dòng đầu tiên là số bộ test t (1 ≤  t ≤  1000)
     #     Mỗi bộ test sẽ có dạng như sau:
-    #         Dòng đầu tiên gồm 2 số n và k (1 ≤  n ≤  3*104, 1 ≤  k ≤  1012) lần lượt là số mức chiều cao khác nhau của quân lính, số hàng mà nhà vua muốn xếp.
-    #         Dòng thứ 2 gồm n số nguyên c1, c2, ..., cn (0 ≤  ci ≤  1012) với ci tương ứng với số lượng người lính có chiều cao i.
+    #         Dòng đầu tiên gồm 2 số n và k (1 ≤  n ≤  3e4, 1 ≤  k ≤  1012) lần lượt là số mức chiều cao khác nhau của quân lính, số hàng mà nhà vua muốn xếp.
+    #         Dòng thứ 2 gồm n số nguyên c1, c2, ..., cn (0 ≤ ci ≤ 1e12) với ci tương ứng với số lượng người lính có chiều cao i.
     # Output:
     #     1 số nguyên duy nhất là kết quả bài toán. Mỗi bộ test kết quả in trên 1 dòng.
     # Ví dụ:

@@ -1,6 +1,8 @@
 # Một câu trong văn bản được hiểu là dãy ký tự (có cả khoảng trống) 
-#     cho đến khi gặp dấu ngắt câu hoặc xuống dòng (tức là đôi khi người ta quên viết dấu ngắt câu nhưng cứ xuống dòng là sang một câu mới). 
-# Các dấu ngắt câu trong bài toán này bao gồm: dấu chấm (.), dấu chấm cảm (!), dấu chấm hỏi (?).
+# cho đến khi gặp dấu ngắt câu hoặc xuống dòng 
+#     (đôi khi người ta quên viết dấu ngắt câu nhưng cứ xuống dòng là sang một câu mới). 
+# Các dấu ngắt câu trong bài toán này bao gồm: (.), (!), (?).
+
 # Hãy viết chương trình chuẩn hóa các câu trong dữ liệu vào với các yêu cầu sau:
 #     Ký tự đầu mỗi câu viết hoa, các ký tự khác viết thường.
 #     Các từ cách nhau đúng một khoảng trống.
@@ -10,7 +12,7 @@
 #     Một văn bản không quá 100 dòng.
 # Output
 #     Ghi ra các câu đã chuẩn hóa, mỗi câu 1 dòng.
-# Ví dụ
+
 #     Input
 #         Chuong trinh Dao Tao CLC nganh CNTT duoc Thiet     Ke theo chuan quoc te.
 #         co 03 chuyen nganh la: Cong  nghe phan mem, Tri tue nhan tao va An toan thong tin
@@ -40,5 +42,5 @@ while i<len(words):
         sen+=words[i]+' '
         i+=1
     if words[i] in '.?!': sen = sen[:-1] + words[i]
-    i+=1
+    i += 1
     print(sen[0].upper() + sen[1:].lower())
