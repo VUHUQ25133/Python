@@ -87,10 +87,10 @@ Một chuỗi là một chuỗi các ký tự. Mọi thứ bên trong dấu ngo�
 ```
 ### Các gạch dưới trong số
 - Khi viết các số dài, ta có thể nhóm các chữ số bằng dấu gạch dưới để làm cho các số lớn dễ đọc hơn:
-  `universe_age = 14_000_000_000`
 - Khi in ra số dùng gạch dưới, Python chỉ in ra các số
   ```py
-    print(universe_age) # 14000000000
+  universe_age = 14_000_000_000
+  print(universe_age) # 14000000000
   ```
 ### Gán nhiều biến cùng lúc
 - Gán giá trị cho nhiều biến chỉ bằng một dòng duy nhất, điều này làm cho chương trình ngắn hơn và dễ đọc hơn
